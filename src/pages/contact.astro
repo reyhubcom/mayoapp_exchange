@@ -18,21 +18,27 @@ const metadata = {
     id="form"
     title="Drop us a message today!"
     subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking  for right there! If not, our support team is delighted to help you."
-   
-   
-   
-   
-  >
-    <Fragment slot="title">
-     <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
-    </Fragment>
-
-    <Fragment slot="subtitle">
-   <iframe id='iframe-widget' src='https://changenow.io/embeds/exchange-widget/v2/widget.html?FAQ=true&amount=0.1&amountFiat=1500&backgroundColor=040422&darkMode=true&from=btc&fromFiat=eur&horizontal=false&isFiat&lang=en-US&link_id=537f0c2ee20bbe&locales=true&logo=false&primaryColor=00C26F&to=eth&toFiat=eth&toTheMoon=true' style="height: 410px; width: 100%; border: 1"></iframe>
-    <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
-
- 
-  
+    inputs={[
+      {
+        type: 'text',
+        name: 'name',
+        label: 'Name',
+      },
+      {
+        type: 'email',
+        name: 'email',
+        label: 'Email',
+      },
+    ]}
+    textarea={{
+      label: 'Message',
+    }}
+    disclaimer={{
+      label:
+        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
+    }}
+    description="Our support team typically responds within 24 business hours."
+  />
 
   <!-- Features2 Widget ************** -->
 
