@@ -310,8 +310,8 @@ const metadata = {
     <Fragment slot="title">Be a part of our vision</Fragment>
 
     <Fragment slot="subtitle">
-     <iframe id='iframe-widget' src='https://changenow.io/embeds/exchange-widget/v2/widget.html?FAQ=true&amount=0.1&amountFiat=1500&backgroundColor=040422&darkMode=true&from=btc&fromFiat=eur&horizontal=true&isFiat&lang=en-US&link_id=537f0c2ee20bbe&locales=true&logo=false&primaryColor=00C26F&to=eth&toFiat=eth&toTheMoon=true' style="height: 205px; width: 100%; 1: none"></iframe>
-    <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
+      Discover a dynamic work environment, unparalleled growth opportunities, and the chance to make a meaningful
+      impact.
     </Fragment>
   </CallToAction>
 </Layout>
