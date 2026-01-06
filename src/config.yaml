@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Mayo.Exchange
+  site: 'https://mayo.exchange'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Mayo.Exchange
+    template: 'Mayo.Exchange'
+  description: "Mayo Exchange allows users to take advantage of low fees from anywhere in the world. It is not uncommon for platforms to restrict availability based on region. Fortunately, Mayo  Exchange offers extensive services to users regardless of their point of transaction. With an optimized web and mobile interface, users can pay anyone in the world with just their cryptocurrency address."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Mayo.Exchange
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -69,4 +69,4 @@ analytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'system' # Values: "system" | "dark" | "dark" | "dark:only" | "dark:only"
